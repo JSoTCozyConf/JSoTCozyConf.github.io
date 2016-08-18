@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body { 
+  font-family: 'Raleway';
+  background-color: #006494;
+}
+.banner {
+	font-family: 'Pacifico';
+	font-size: 64px;
+	color: #E8F1F2;
+}
+.banner-container {
+	text-align: center;
+}
+.main {
+	margin: 0 auto;
+	background-color: #247BA0;
+	max-width: 85%;
+	border: #E8F1F2 1px solid;
+	border-radius: 10px;
+	padding: 40px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto Slab';
+  font-weight: normal;
+  color: #E8F1F2;
+  margin: 10px 0 10px 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li { 
+    padding: 5px 5px 5px 16px; 
+    margin-bottom: 10px;
+    color: #E8F1F2;
+}
+i {
+  margin-right: 4px;
+}
+a {
+  color: #EF8F4A;
+  text-decoration: none;
+}
+p {
+  color: #E8F1F2;
+  padding: 5px;
+}
+.note {
+	font-size: 12px;
+	font-style: italic;
+	color: #E8F1F2;
+}
+@media (max-width:425px){
+  .banner {
+    font-size: 36px;
+  }
+}
